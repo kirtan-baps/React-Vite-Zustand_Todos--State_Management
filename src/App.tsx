@@ -44,7 +44,7 @@ function App() {
 
               <input
                 type="text"
-                className="w-full h-10 rounded-lg bg-[#282828] outline-red-400 border border-red-400"
+                className=" p-4 w-full h-10 rounded-lg bg-[#282828] outline-red-400 border border-red-400"
                 placeholder="Enter your todo"
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}
